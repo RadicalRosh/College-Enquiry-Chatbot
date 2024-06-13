@@ -1,0 +1,214 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - tell me about you?
+    - what is your name?
+    - about you
+
+- intent: branches
+  examples: |
+    - what are the branches available in the college?
+    - branches of the college
+    - branches
+
+- intent: check_scholarships
+  examples: |
+    - tell me about scholarships
+    - what scholarships are available?
+    - scholarship details
+    - how can I get a scholarship?
+    - tell me about scholarships available in St John's College of Engineering and Management
+    - tell me about scholarships available in this college
+
+- intent: check_contact_us
+  examples: |
+    - how can I contact the college?
+    - what is the address of the college?
+    - what is the address of the St John's College of Engineering and Management?
+    - what is the telephone number of the college?
+    - contact number
+    - what is the Email of the college?
+
+- intent: check_achievements
+  examples: |
+    - What are the achievements of the college?
+    - achievements
+    - give some achievements of this college
+
+- intent: check_about_college
+  examples: |
+    - about the college
+    - about St John's College of Engineering and Management
+    - tell me something about the college
+    - tell me something about St John's College of Engineering and Management
+    - tell about specialities of the college
+
+- intent: check_apply_now
+  examples: |
+    - how to apply for jobs in this college
+    - job opportunities
+    - job
+    - applying for job
+
+- intent: check_attendance
+  examples: |
+    - where to check my attendance?
+    - how  to check my attendance?
+    - attendance
+    - what is my attendance?
+
+- intent: check_campus
+  examples: |
+    - tell about campus of the college?
+    - campus
+    - what about the campus of the college?
+
+- intent: check_admission
+  examples: |
+    - what are the documents required for admission here?
+    - how can I get admitted in this college?
+    - what is the process for admission in this college?
+
+- intent: check_curriculum
+  examples: |
+    - what is the curriculum of this college?
+    - curriculum
+
+- intent: check_exam_results
+  examples: |
+    - exam results
+    - i want to know the the exam results?
+    - what about the results?
+    - i want to know the the exam results of my son
+    - i want to know the the exam results of my daughter
+
+- intent: check_exams
+  examples: |
+    - exams
+    - dates of exams?
+    - when will the exams be taken?
+    - when are my exams?
+    - When are my sonn's exams
+    - When are my daughter's exams?
+
+- intent: check_faculty_login
+  examples: |
+    - faculty login
+    - where can faculty login?
+    - give the website for faculty login
+
+- intent: check_placements
+  examples: |
+    - placements
+    - What are the placements of this college?
+    - show me the placements of this college?
+    - who are the recruiters in this college?
+    - recruiters
+    - recruitment
+
+- intent: feedback
+  examples: |
+    - I have some feedback
+    - I want to give feedback
+    - Can I leave feedback?
+    - Where can I give my feedback?
+
+- intent: check_fees_structure
+  examples: |
+    - what is the fees structure here?
+    - fees structures
+    - what is the fees structure of this college?
+
+- intent: check_courses
+  examples: |
+    - what are the courses available here?
+    - courses
+    - tell the courses available here?
+    - i want know about courses available in this college

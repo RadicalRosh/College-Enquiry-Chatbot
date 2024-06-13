@@ -1,0 +1,126 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_cat
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_cat
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ask branch
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branches
+  - action: utter_branches
+
+- story: redirect to scholarship site
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: check_scholarships
+  - action: action_redirect_to_scholarship
+
+- story: user asks contact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: check_contact_us
+  - action: utter_contact_us
+
+- story: user asks about achievements
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: check_achievements
+  - action: utter_achievements
+
+- story: user asks about college
+  steps:
+  - intent: check_about_college
+  - action: utter_about_college
+
+- story: user asks job
+  steps:
+  - intent: check_apply_now
+  - action: action_redirect_to_apply_now
+
+- story: user asks for attendance
+  steps:
+  - intent: check_attendance
+  - action: action_redirect_to_attendance
+
+- story: user asks about campus
+  steps:
+  - intent: check_campus
+  - action: action_redirect_to_campus
+
+- story: user asks about admission
+  steps:
+  - intent: check_admission
+  - action: action_redirect_to_admission
+
+- story: user asks about courses
+  steps:
+  - intent: check_courses
+  - action: utter_courses
+
+- story: user asks about curriculum
+  steps:
+  - intent: check_curriculum
+  - action: action_redirect_to_curriculum
+
+- story: user asks about exam results
+  steps:
+  - intent: check_exam_results
+  - action: action_redirect_to_exam_results
+
+- story: user asks about exams
+  steps:
+  - intent: check_exams
+  - action: action_redirect_to_exams
+
+- story: user asks about faculty login
+  steps:
+  - intent: check_faculty_login
+  - action: action_redirect_to_faculty_login
+
+- story: user asks about placements
+  steps:
+  - intent: check_placements
+  - action: action_redirect_to_placements
+
+- story: user asks about fees structure
+  steps:
+  - intent: check_fees_structure
+  - action: action_redirect_to_fees_structure
+
+- story: feedback path
+  steps:
+  - intent: feedback
+  - action: utter_feedback
+  - action: action_feedback_form
