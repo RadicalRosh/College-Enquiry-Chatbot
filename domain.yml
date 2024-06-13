@@ -1,0 +1,196 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - branches
+  - check_scholarships
+  - check_contact_us
+  - check_achievements
+  - check_about_college
+  - check_apply_now
+  - check_attendance
+  - check_campus
+  - check_admission
+  - check_courses
+  - check_curriculum
+  - check_exam_results
+  - check_exams
+  - check_faculty_login
+  - check_placements
+  - check_fees_structure
+  - feedback
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_branches:
+    - text: |
+        Branches available in St. John College of Engineering & Management are:<br>
+        1. Civil Engineering<br>
+        2. Computer Engineering<br>
+        3. Information Technology<br>
+        4. Electronics & Computer Science<br>
+        5. Mechanical Engineering<br>
+        6. Artificial Intelligence/Machine Learning<br>
+        7. Data Science
+
+  utter_iamabot:
+    - text: |
+        COLLEGE ENQUIRY BOT, also known as COLLEGE-E-BOT, is an AI-powered virtual assistant designed to assist you with queries related to colleges, courses, achievements, and other relevant information. It is programmed to provide helpful responses based on the queries you ask. It is made by Prathamesh Patil from S.E. A.I.M.L. COLLEGE-E-BOT can fetch information about various college branches, details about specific colleges, their achievements, placements, and more. It aims to provide you with accurate and relevant information to aid in your college decision-making process. If you have any questions or need assistance, feel free to ask COLLEGE-E-BOT, and it will do its best to help you!
+
+  utter_contact_us:
+    - text: |
+        Here is the piece of information that I can provide you with:<br>
+        Address:<br>
+        St. John College Of Engineering & Management<br>
+        St. John Technical & Educational Complex,<br>
+        Village Vevoor, Manor Road,<br>  
+        Palghar (East)<br>  
+        Palghar District – 401404,<br>  
+        Maharashtra, India<br>  
+
+        E-mail:<br>
+        office@sjcem.edu.in <br> 
+
+        Phone:<br>
+        +91-2525-297279 / 75, +91-2525-256834
+  
+  utter_achievements:
+    - text: |
+        Here is something I can share with you :<br> 
+        Achievements of the St. John College Of Engineering & Management:<br> 
+
+        • Team UNICORN - Five First Prizes won in FMAE FKDC SEASON-2 in March 2018 at Bangalore for Autocross, Endurance, Business Plan, Skid Pad & Overall First Prize Winner.<br> 
+
+        • Team ROCKSTAR BOTS-1st Prize under "Ministry of Skill Development & Entrepreneurship" Govt. of India in "SMART INDIA HACKATHON" held at Bhubaneswar, Orissa, in March 2018.<br> 
+
+        • Team UNICORN - 2nd Prize at National Level in FMAE-FKDC 2017, held in March 2017 at Bangalore<br> 
+
+        • Team 'UDAAN' -Secured the 16th Place out of 126 teams in SAE SUPRA 2017 (July 2017) Participated in SAE SUPRA 2018 (June 2018) at Noida<br> 
+
+        • 1st Prize at AAKAAR "BRIDGE IT" Competition organized by IIT Bombay in March 2018<br> 
+
+        • Overall 1st Prize & 3n1 Prize in TECHFEST MESMERIZE LINE-FOLLOWER Competition held at IIT Bombay in Dec. 2018.<br> 
+
+        • ICARUS Technical Fest 2018 held at Rajiv Gandhi College of Engineering 1st Prize in Project "College Recommendation Chatbot Using Al" Competition & 3"' Prize in Project "Smart Notice Board using Raspberry Pi and Android App"<br> 
+
+        • 1st Prize in Technitude-2018 (Paper Presentation Topic - "Brain Computer Interface") held at Datta Meghe College of Engineering, Navi Mumbai (Also 3rd Prize in Technical Paper Presentation in Usha Mittal Institute of Technology, Mumbai.)<br> 
+
+        • Team ARGONAUTS - Secured 17tt, Place out of 42 teams in Go-Kart-Design Challenge (GKDC) Competition organized by Kari Motor Speedways, Coimbatore in Feb 2018.<br> 
+
+        • 3rd Prize in the Paper Presentation Competition held at Pillai College of Engineering, Panvel Topic - "Eco Friendly E-Commerce Website"<br> 
+
+        • 3rd Prize in Project "Cross Country Pipe Cleaning Robot" Competition held at St. Francis Institute ofTechnology, Mumbai<br> 
+
+        • Project Selected in top 30 teams in National Level Competition - Nav Bharat Nirman (NBN) held at Indira Gandhi Prathishthan, Lucknow in Sept. 2018.<br> 
+
+        • "Smart Drip Irrigation System" Project Finalist in Hardware Section Category "SMART INDIA HACKATHON" 2018
+
+  utter_about_college:
+    - text: |
+        Mr. Albert W. D'Souza is an accomplished entrepreneur in the Printing Industry and an Executive Council Member of several professional technical institutions. It was the visionary leadership of the Founder-Chairman that enabled him to anticipate the challenges lying ahead in the holistic development of our youth.In a progressive country like India, Science and Technology serve as the vanguard of development in every domain. Emerging processes and methodologies demand additional trained and skilled manpower. In the realm of medicine, the identification of various diseases necessitates the discovery of new medicines and remedial measures. To materialize the vision of a developed India on par with the best, we must equip ourselves with efficient and skilled personnel for the future. Albert W. D'Souza harboured the aspiration of nurturing the youth of our society by offering them specialized professional education.
+        With profound foresight in the realm of education, the Founder-Chairman has forged remarkable opportunities for students, empowering them to pursue promising careers. He has played a pivotal role in the establishment, expansion, and enrichment of several professional technical institutions across India. His enduring goal has been to furnish exceptional higher and technical education to budding young learners. His ardent desire to personally contribute to this cause led to the inception of ALDEL EDUCATION TRUST.<br> 
+        Aldel Education Trust was formally registered on October 26, 2007, under the Mumbai Public Trusts Act, 1950 – Regn. No. E-24542 (Mumbai).<br> 
+        The Trust attained Christian Religious Minority Status as per the Maharashtra State Minority Dev. Dept., Govt. of Maharashtra, through an Order dated July 25, 2008 (Ref.: 2008/310/164/2008/1).
+        The Trust Office is situated at I. C. Colony, Borivali.<br> 
+        Currently, the Trust oversees the following Institutions:<br> 
+        1.	St. John College of Engineering and Management (SJCEM)<br> 
+        -	Diploma in Engineering (Civil, Computer, Mechanical)<br> 
+        -	Engineering Degree (Computer Comps, Information Technology, AI/ML, Data Science, Electronics & CS, Mechanical, Civil)<br> 
+        -	MBA (MMS)<br> 
+        2.	St. John Institute of Pharmacy & Research (SJIPR) 
+        -	D. Pharm.<br> 
+        -	B. Pharm.<br> 
+        -	M. Pharm<br> 
+        3.	St. John College of Humanities and Sciences (SJCHS) <br> 
+        -	B.A.<br> 
+        -	B.A.F.<br> 
+        -	B.B.I.<br> 
+        -	B. Com.<br> 
+        -	B.F.M.<br> 
+        -	B.M.S.<br> 
+        -	B.Sc.<br> 
+        -	B.Sc. (CS)<br> 
+        -	B.Sc. (HS)<br> 
+        -	B.Sc. (IT)<br> 
+        -	B.M.M. (Proposed)<br> <br> 
+        4.	St. John Junior College (SJJC)<br> 
+        -	Arts, Commerce, Science<br> <br> 
+        5.	St. John International School (SJIS)<br> 
+        6.	Aldel High School
+
+  utter_feedback:
+    - text: "We would love to hear your feedback! Please fill out this form here"
+
+  utter_courses:
+    - text: |
+        St. John College of Engineering and Management (SJCEM) in Palghar offers a variety of courses across undergraduate, diploma, and postgraduate levels. Here is a summary of the courses available:<br> 
+
+        Undergraduate Programs (Bachelor of Engineering):<br> 
+        1. Civil Engineering - 4 years, 60 seats<br> 
+        2. Computer Engineering - 4 years, 120 seats<br> 
+        3. Electronics and Telecommunication Engineering - 4 years, 60 seats<br> 
+        4. Information Technology - 4 years, 60 seats<br> 
+        5. Mechanical Engineering - 4 years, 120 seats<br> 
+
+        Diploma Programs:<br> 
+        1. Civil Engineering - 3 years, 60 seats<br> 
+        2. Electronics and Telecommunication Engineering - 3 years, 60 seats<br> 
+        3. Mechanical Engineering - 3 years, 60 seats<br> 
+
+        Postgraduate Programs:<br> 
+        1. Master of Management Studies (MMS) - 2 years, 60 seats<br> 
+          - Specializations: Marketing, Finance, Human Resources, Operations, and Information Technology<br> 
+
+        These programs are designed to provide quality education and build skills for various engineering and management fields. The institution emphasizes a holistic development approach and incorporates innovative learning methodologies to prepare students for competitive and employable roles in the industry.<br> 
+        Additionally, St. John Technical and Educational Campus in Palghar, offers a variety of courses across different colleges. Here are the details for the pharmacy and humanities programs:<br> 
+
+        1. St. John Institute of Pharmacy and Research (SJIPR):<br> 
+          - B.Pharm (Bachelor of Pharmacy): This is a four-year undergraduate program that focuses on the study of pharmaceutical sciences, preparing students for careers in pharmacy practice and research.<br> 
+          - M.Pharm (Master of Pharmacy): A postgraduate program with specializations in various branches of pharmacy, focusing on advanced studies and research in pharmaceutical sciences.<br> 
+
+        2. St. John College of Humanities and Sciences (SJCHS):<br> 
+          - B.Sc. (Bachelor of Science): Offers undergraduate programs in fields such as Computer Science, Information Technology, and Biotechnology.<br> 
+          - B.Com. (Bachelor of Commerce): Focuses on accounting, finance, and business studies, preparing students for careers in commerce and industry.<br> 
+          - B.A. (Bachelor of Arts): Includes programs in subjects like English Literature and Psychology, providing a broad education in humanities and social sciences.<br> 
+
+        These programs are designed to equip students with the necessary knowledge and skills for their respective fields, combining theoretical learning with practical applications. For more information, you can visit their [official website](https://www.sjcem.edu.in).
+
+actions:
+  - action_redirect_to_scholarship
+  - action_redirect_to_apply_now
+  - action_redirect_to_attendance
+  - action_redirect_to_campus
+  - action_redirect_to_admission
+  - action_redirect_to_curriculum
+  - action_redirect_to_exam_results
+  - action_redirect_to_exams
+  - action_redirect_to_faculty_login
+  - action_redirect_to_placements
+  - action_redirect_to_fees_structure
+  - action_feedback_form
+  - action_cat
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
