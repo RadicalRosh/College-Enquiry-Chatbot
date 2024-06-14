@@ -63,6 +63,8 @@ cp -r /path/to/your/github/repo/* /path/to/your/rasa/project/folder/
 ```
 Replace /path/to/your/github/repo/ with the actual path to the cloned repository and /path/to/your/rasa/project/folder/ with the path to your Rasa project directory.
 
+OR you can just simple download the zip file and manually copy-paste which _**I recommend**_.
+
 ## Contributing
 Feel free to contribute to this project by creating pull requests, reporting issues, or suggesting improvements. Your contributions are highly appreciated!
 
