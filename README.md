@@ -27,10 +27,14 @@ To set up and run the COLLEGE ENQUIRY BOT, follow these steps:
 
 ### Step 2: Set Up the Project
 1. **Clone the GitHub repository:**
+```
      git clone https://github.com/yourusername/college-enquiry-bot.git
      cd college-enquiry-bot
-2. **Install the required dependencies:**
+```
+3. **Install the required dependencies:**
+   ```
    pip install -r requirements.txt
+   ```
 
 ### Step 3: Train the Model
 1. **Train the Rasa model:**
@@ -38,11 +42,15 @@ To set up and run the COLLEGE ENQUIRY BOT, follow these steps:
 
 ### Step 4: Run the Bot
 1. **Run the Rasa server:**
-   rasa run actions &
+   ```
+   rasa run actions
    rasa run
+   ```
+   Note: Do that in seperate terminals.
 2.**Run the bot in interactive mode (optional, for testing and debugging):**
+   ```
    rasa shell
-
+   ```
 
 ## Usage
 Once the bot is up and running, it can handle various queries related to the college. You can test it using the interactive mode or integrate it with a frontend interface to provide a seamless user experience.
