@@ -31,7 +31,7 @@ To set up and run the COLLEGE ENQUIRY BOT, follow these steps:
      git clone https://github.com/yourusername/college-enquiry-bot.git
      cd college-enquiry-bot
 ```
-3. **Install the required dependencies:**
+2. **Install the required dependencies:**
    ```
    pip install -r requirements.txt
    ```
@@ -47,6 +47,7 @@ To set up and run the COLLEGE ENQUIRY BOT, follow these steps:
    rasa run
    ```
    Note: Do that in seperate terminals.
+   
 2.**Run the bot in interactive mode (optional, for testing and debugging):**
    ```
    rasa shell
